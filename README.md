@@ -8,6 +8,10 @@
 - JSONエクスポート付き
 - ローカルで完結（クラウド不要）
 
+## プロジェクト構造
+
+```
+/
 promptvault/
 ├── app.py                # FastAPI（Python）
 ├── templates/index.html  # HTMX + Tailwind
@@ -16,6 +20,8 @@ promptvault/
 └──  ChromeExt
 　　　├── save_prompt.js        # Chrome拡張
 　　　└── manifest.json         # Chrome拡張
+
+```
 
 今後追加したい機能
 - 1クリックコピー
