@@ -14,8 +14,8 @@
 /
 promptvault/
 ├── app.py                # FastAPI（Python）
-├── templates/index.html  # HTMX + Tailwind
-├── static/style.css      # tailwindcssを利用しているので空白
+├── index.html            # HTMX + Tailwind
+├── style.css             # tailwindcssを利用しているので空白
 ├── prompts.db            # SQLite（1ファイルで完結）
 └──  ChromeExt
 　　　├── save_prompt.js        # Chrome拡張
