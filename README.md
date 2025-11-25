@@ -8,6 +8,15 @@
 - JSONエクスポート付き
 - ローカルで完結（クラウド不要）
 
+promptvault/
+├── app.py                # FastAPI（Python）
+├── templates/index.html  # HTMX + Tailwind
+├── static/style.css      # tailwindcssを利用しているので空白
+├── prompts.db            # SQLite（1ファイルで完結）
+ChromeExt
+├── save_prompt.js        # Chrome拡張
+└── manifest.json         # Chrome拡張
+
 今後追加したい機能
 - 1クリックコピー  
 - 1クリック圧縮（2000→200文字）  
