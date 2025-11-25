@@ -13,13 +13,14 @@ promptvault/
 ├── templates/index.html  # HTMX + Tailwind
 ├── static/style.css      # tailwindcssを利用しているので空白
 ├── prompts.db            # SQLite（1ファイルで完結）
-ChromeExt
-├── save_prompt.js        # Chrome拡張
-└── manifest.json         # Chrome拡張
+└──  ChromeExt
+　　　├── save_prompt.js        # Chrome拡張
+　　　└── manifest.json         # Chrome拡張
 
 今後追加したい機能
-- 1クリックコピー  
-- 1クリック圧縮（2000→200文字）  
+- 1クリックコピー
+- 自動保存  
+- 1クリック圧縮
 - 1クリック最適化（自動で新バージョン保存）  
 - 使用頻度ランキング  
 - バージョン履歴（親子関係でツリー表示も後で追加可）  
